@@ -28,6 +28,13 @@ func main()  {
 	name2:= "yash israni"
 	fmt.Printf(name2)
 
+	// declare and assign two variable at same time
+	contact, marks := 193891,99.9
+	fmt.Println(contact,marks)
+
+	// const variable
+	const pi = 3.14
+	fmt.Println(pi)
 
 	// if first letter of name is "Capital", then it's exported(public). it's called "Public Variables"
 	var Public = "data is important"
