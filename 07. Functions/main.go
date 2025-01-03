@@ -18,9 +18,9 @@ func multiple(a, b int) (result int)  {
 
 func main()  {
 	simplefunction()
-	
 	fmt.Println(add(10,20))
 
 	data:= multiple(3,4)
 	fmt.Println("multiplication is", data)
 }
+
